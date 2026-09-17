@@ -662,7 +662,8 @@
 
 import { Margin, Padding, Widgets } from "@mui/icons-material"
 import { useState } from "react"
-import Counter from "./component/Counter.jsx"
+// import Counter from "./component/Counter.jsx"
+import Todo from "./component/TodoApp.jsx"
 
 function App() {
   //   const [paragraph, setparagraph] = useState("Hello I am Gemini")
@@ -720,7 +721,8 @@ function App() {
 
   return (
     <div>
-      <Counter />
+      {/* <Counter /> */}
+      <Todo />
     </div>
   )
 

@@ -1,0 +1,124 @@
+    body{
+    background: linear-gradient(135deg, #4776e6, #8e54e9);
+    margin-top: 50px;
+    }
+    .main{
+    background-color: white;
+    text-align: center;
+    width: 600px; 
+    border-radius: 10px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    }
+    .head2{
+        padding: 10px;
+    }
+
+    .maininput{
+        width: 455px;
+        padding: 6px;
+        margin-bottom: 20px;
+    }
+    .addinput{
+        width: 380px;
+        padding: 6px;
+        margin-bottom: 20px;
+    }
+
+
+    .editbutton{
+    border-radius: 5px;
+    background-color: #7C3AED;
+    color: white;
+    border: none;
+    padding: 7px;
+    margin: 9px;
+    font-size: px;
+    width: 50px;
+    }
+    
+    .editbutton:hover{
+        transform: scale(1.1);
+        transition: 0.4s;
+        background-color: #310d70;
+    }
+
+    .save{
+    border-radius: 5px;
+    background-color: #7C3AED;
+    color: white;
+    border: none;
+    padding: 7px;
+    margin: 9px;
+    font-size: px;
+    width: 50px;
+    font-weight: bold;
+    }
+    .save:hover{
+        transform: scale(1.1);
+        transition: 0.4s;
+        background-color: green;
+    }
+
+
+    .deletebutton{
+    border-radius: 5px;
+    background-color: #752ff0;
+    color: white;
+    border: none;
+    padding: 7px;
+    margin: 9px;
+    font-size: 17px;
+    width: 60px;
+    }
+     .deletebutton:hover{
+        transform: scale(1.1);
+        transition: 0.6s;
+        background-color: rgb(187, 10, 10);
+    }
+    
+
+
+    .add{
+    border-radius: 5px;
+    background-color: #7C3AED;
+    color: white;
+    border: none;
+    padding: 7px;
+    margin: 9px;
+    font-size: 17px;
+    width: 45px;
+    }
+
+    .add:hover{
+        transform: scale(1.1);
+        transition: 0.6s;
+        background-color: rgb(150, 15, 228);
+    }
+
+
+    .clear{
+        border-radius: 5px;
+        background-color: #7C3AED;
+        color:white;
+        border: none;
+        padding: 7px;
+        font-weight: bold;
+    }
+
+    .clear:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+        background-color: red
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        gap:262px;
+        padding: 10px;
+        align-items: center;
+    
+    }
